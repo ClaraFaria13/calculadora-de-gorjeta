@@ -6,7 +6,7 @@ const containput = document.querySelector("#conta")
 containput.addEventListener("input", receberValorConta)
 
 function receberValorConta(evento) {
-    conta = (evento.target.value)
+    conta = Number(evento.target.value)
     calcular()
 }
 
